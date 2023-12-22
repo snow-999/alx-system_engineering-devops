@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # print all processes
 
-ps -e -o pid,ppid,user,tty,cmd --forest
+ps -aux | less
