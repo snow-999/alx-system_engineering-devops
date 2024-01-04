@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# a script that dispaly all active IPv4
+
+ifconfig | awk '$1 == "inet" { print $2}'
