@@ -1,1 +1,1 @@
-task repo for shell basics
+read me file for task
